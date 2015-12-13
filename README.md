@@ -114,11 +114,11 @@ The four plots that you will need to construct are shown below.
 
 ## Scripts for generating plots
 
-All four of the scripts work in the following manner:
-1) Download the file from the UC Irvine Machine Learning Repository into temporary file
-2) Unzip and read csv file, closing the connection to temporary file
-3) Subset it basing on the date (using the data for 2007-02-01 and 2007-02-02 only)
-4) Create additional column 'timestamp' by combining the Date and Time columns
-5) Open PNG device
-6) Plot the data (Global active power, Global reactive power, Voltage) over timestamp (except for the first case, where time is not used)
-7) Close the connection
+All four of the scripts work in the following manner:<br />
+1) Download the file from the UC Irvine Machine Learning Repository into temporary file<br />
+2) Unzip and read csv file, closing the connection to temporary file<br />
+3) Subset it basing on the date (using the data for 2007-02-01 and 2007-02-02 only)<br />
+4) Create additional column 'timestamp' by combining the Date and Time columns<br />
+5) Open PNG device<br />
+6) Plot the data (Global active power, Global reactive power, Voltage) over timestamp (except for the first case, where time is not used)<br />
+7) Close the connection<br />
